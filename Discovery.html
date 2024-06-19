@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<center>
+<head>
+<meta charset="UTF-8">
+<title>Index</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+body {
+    background-image: url();
+    background-repeat: repeat;
+    background-color: #7F7F7F;
+}
+body,td,th {
+    color: #FFFFFF;
+}
+</style>
+</head>
+
+<body onLoad="MM_preloadImages('Images/Car List Rollover On.png','Images/Instructions Rollover On.png','Images/Review Rollover On.png','Images/Instructions On.png','Images/Start On.png')">
+<table width="1177" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="115"><a href="Index.html"><img src="Images/Main Logo.png" width="114" height="63" alt=""/></a></td>
+      <td width="348"><a href="Car List.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Car List','','Images/Car List Rollover On.png',1)"><img src="Images/Car List Rollover Off.png" alt="" width="346" height="63" id="Car List"></a></td>
+      <td width="323"><a href="Instructions.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Instructions Rollover','','Images/Instructions Rollover On.png',1)"><img src="Images/Instructions Rollover Off.png" alt="" width="323" height="63" id="Instructions Rollover"></a></td>
+      <td width="266"><a href="Reviews.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Reviews Rollover Button','','Images/Review Rollover On.png',1)"><img src="Images/Review Rollover Off.png" alt="" width="266" height="63" id="Reviews Rollover Button"></a></td>
+      <td width="125"><a href="Index.html"><img src="Images/Main Logo.png" width="114" height="63" alt=""/></a></td>
+    </tr>
+    <tr>
+      <td height="188" colspan="5"><img src="Images/Car Header Images/Discovery.png" width="1200" height="468" alt=""/></td>
+    </tr>
+    <tr>
+      <td height="188" colspan="2"><iframe width="560" height="315" src="https://www.youtube.com/embed/TAFeOKe_1l4?si=Dw0_ZZKEO0NkXk8n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+      <td height="188">&nbsp;</td>
+      <td height="188" colspan="2">&nbsp; </td>
+    </tr>
+    <tr>
+      <td height="188" colspan="5"><a href="Instructions.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Instructions','','Images/Instructions On.png',1)">\</a> <embed src="https://www.landrover.com.au/discovery/discovery/index.html" style="width:1200px; height: 500px;" pluginspage="https://www.landrover.com.au/discovery/discovery/index.html"></td>
+      </tr>
+    <tr>
+      <td height="188" colspan="5"><img src="Images/Footer.png" alt="" width="1200" height="245" usemap="#Map"/></td>
+    </tr>
+  </tbody>
+</table>
+
+<map name="Map">
+  <area shape="rect" coords="294,73,380,134" href="https://www.youtube.com/" target="_blank">
+  <area shape="rect" coords="120,63,187,136" href="https://x.com/" target="_blank">
+  <area shape="circle" coords="824,91,36" href="https://facebook.com/" target="_blank">
+  <area shape="rect" coords="972,52,1047,131" href="https://instagram.com/" target="_blank">
+</map>
+</body>
+</center>
+</html>
